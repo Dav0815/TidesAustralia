@@ -1,0 +1,14 @@
+Tide:
+  module: sensor_tide
+  class: SensorTide
+  actuator: sensor.tide
+  # tide_location: 'QLD_TP104'
+  friendly_name: 'Next Tide'
+
+
+Tide2:
+  module: sensor_tide
+  class: SensorTide
+  actuator: sensor.tide2
+  tide_location: 'NSW_TP001'
+  friendly_name: 'Next Tide Sydney'
